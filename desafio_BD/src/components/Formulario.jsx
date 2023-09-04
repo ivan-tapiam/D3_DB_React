@@ -49,7 +49,7 @@ const handleInputs = (e) => {
   }
 
   return (
-    <div className='formulario col-12 col-lg-4 text-center bg-primary p-4 rounded'>
+    <div className='formulario col-12 col-lg-4 text-center bg-secondary p-4 rounded'>
       <h3>Agregar Colaborador</h3>
 
       <form 
