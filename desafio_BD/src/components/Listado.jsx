@@ -11,9 +11,6 @@ const colaboradores = dataFilter.map((colaborador) => (
       <td>{colaborador.edad}</td>
       <td>{colaborador.cargo}</td>
       <td>{colaborador.telefono}</td>
-      <td>
-        <i className='fa-solid fa-trash-can'></i>
-      </td>
     </tr>
 ))
 
@@ -29,7 +26,6 @@ const colaboradores = dataFilter.map((colaborador) => (
           <th>Edad</th>
           <th>Cargo</th>
           <th>Telefono</th>
-          <th>Eliminar</th>
         </tr>
       </thead>
       <tbody>{colaboradores}</tbody>
